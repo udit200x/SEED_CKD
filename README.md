@@ -14,26 +14,22 @@ Usage (For Local Setup)
 Clone the Repository:
 
 bash
-Copy code
 git clone https://github.com/Shrajoy92/SEED_CKD.git
-Navigate to the Project Directory:
 
-bash
-Copy code
+Navigate to the Project Directory:
 cd SEED_CKD
 Install Dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
 Run the Application Locally:
 
 bash
-Copy code
 streamlit run main.py
 Access the Application:
 
-Open your browser and navigate to http://localhost:8501.
+Open your browser and navigate to 
+http://localhost:8501.
 
 Hosting on Render
 The application is hosted on Render to make it accessible online. The deployment process includes:
@@ -45,7 +41,6 @@ Linking your repository to Render.
 Setting up a Web Service on Render with the start command:
 
 bash
-Copy code
 streamlit run main.py
 Render automatically handles deployment and hosting.
 
